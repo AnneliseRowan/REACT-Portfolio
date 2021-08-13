@@ -7,13 +7,14 @@ import BudgetTracker from "../../assets/pwa.png";
 import WorkoutTracker from "../../assets/workout.png"; 
 import EcommerceBackEnd from "../../assets/ecommerce.png";
 import WeatherDashboard from "../../assets/weather.png"; 
+import "./style.css";
 
 const Projects = () => {
     return (
     <div>
-        <header className="bg-primary text-center py-5 mb-4">
+        <header className="bg-dark text-center py-5 mb-4">
         <div className="container">
-            <h1 className="fw-light text-white">My Latest and Greatest Projects</h1>
+            <h1 className="fw-light text-white" style={{fontFamily: "Lobster, cursive", fontSize: "64px"}} >My Latest and Greatest Projects</h1>
         </div>
         </header>
         <div className="container">
