@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './contact.css';
-import { validateEmail } from './utils/helpers';
+import { validateEmail } from './utils/Helpers';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -39,8 +39,8 @@ const Contact = () => {
 
   return (
     <div>
-      <p>Love To Hear From You!</p>
-      <form className="form">
+      <p style={{"marginLeft":"auto", "marginRight":"auto"}}>Love To Hear From You!</p>
+      <form className="form mx-auto">
         <input
           value={name}
           name="name"
@@ -51,7 +51,7 @@ const Contact = () => {
         <input
           value={email}
           name="email"
-          onChange={handleInputChange}
+          onChange={handleInputChange}S
           type="email"
           placeholder="Email"
         />
