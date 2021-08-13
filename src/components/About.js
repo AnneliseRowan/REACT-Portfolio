@@ -3,7 +3,7 @@
 const About = () => {
 
     const styleObj = {
-        background: "url() no-repeat center center fixed",
+        background: "url(Assets/DE1BFA76-E67C-4F09-A3FF-DCF1800C5B28.jpg) no-repeat center center fixed",
         webkitBackgroundSize: "cover",
         mozBackgroundSize: "cover",
         backgroundSize: "cover",
