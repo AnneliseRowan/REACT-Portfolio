@@ -1,15 +1,6 @@
-import Header from './components/Header'; 
-import About from './components/About'; 
+import PortfolioContainer from './components/PortfolioContainer'; 
 
-const App = () => {
-  return (
-    <div>
-      <Header />
-      <About />
-      
-    </div>
-    
-  );
-}
+const App = () => <PortfolioContainer />;
+
 
 export default App;
