@@ -11,20 +11,31 @@ body {
 }
 
 .social-icons .social-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    background-color: black;
-    color: #fff;
-    border-radius: 100%;
-    font-size: 1.5rem;
-    margin-right: 1.5rem;
-  }
-  .social-icons .social-icon:last-child {
-    margin-right: 0;
-  }
-  .social-icons .social-icon:hover {
-    background-color: #bd5d38;
-  }
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: black;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+
+h5.caption {
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  display: none; 
+}
+
+img:hover h5.caption {
+  display: block; 
+}

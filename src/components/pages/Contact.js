@@ -39,9 +39,8 @@ const Contact = () => {
 
   return (
     <div className="container">
-      <div className="bg-image" style={{backgroundImage: 'url("../../assets/snowsmall.jpg")', "height": "100vh"}}>
-
-        <p style={{maxWidth:"925px", margin:"auto", fontFamily: "Lobster, cursive", fontSize:"40px"}}>Love To Hear From You!</p>
+      <div className="row justify-content-center">
+        <p className="mx-auto" style={{fontFamily: "Lobster, cursive", fontSize:"48px", width:"500px"}}>Love To Hear From You!</p>
         <form className="form mx-auto">
           <input
             value={name}
@@ -65,7 +64,9 @@ const Contact = () => {
             type="text"
             placeholder="A Short Message"
           />
-          <button type="button" style={{marginLeft: "1350px"}} onClick={handleFormSubmit}>Submit</button>
+          <div className="center">
+            <button type="button" className="mx-auto" style={{justifyContent:"center"}} onClick={handleFormSubmit}>Submit</button>
+          </div>
         </form>
         {errorMessage && (
           <div>
@@ -73,6 +74,8 @@ const Contact = () => {
           </div>
         )}
       </div>
+
+      
     </div>
   );
 }
