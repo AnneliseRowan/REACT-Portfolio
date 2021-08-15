@@ -5,7 +5,7 @@ import { validateEmail } from './utils/Helpers';
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
+  const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
@@ -18,7 +18,7 @@ const Contact = () => {
     } else if (inputType === 'name') {
       setName(inputValue);
     } else {
-      setPhoneNumber(inputValue);
+      setMessage(inputValue);
     }
   };
 
@@ -33,43 +33,46 @@ const Contact = () => {
     alert(`Hello ${name}`);
 
     setName('');
-    setPhoneNumber('');
+    setMessage('');
     setEmail('');
   };
 
   return (
-    <div>
-      <p style={{maxWidth:"925px", margin:"auto", fontFamily: "Lobster, cursive", fontSize:"40px"}}>Love To Hear From You!</p>
-      <form className="form mx-auto">
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Full Name"
-        />
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}S
-          type="email"
-          placeholder="Email"
-        />
-        
-        <input
-          value={phoneNumber}
-          name="phoneNumber"
-          onChange={handleInputChange}
-          type="number"
-          placeholder="Phone Number"
-        />
-        <button type="button" style={{marginLeft: "1350px"}} onClick={handleFormSubmit}>Submit</button>
-      </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
+    <div className="container">
+      <div className="bg-image" style={{backgroundImage: 'url("../../assets/snowsmall.jpg")', "height": "100vh"}}>
+
+        <p style={{maxWidth:"925px", margin:"auto", fontFamily: "Lobster, cursive", fontSize:"40px"}}>Love To Hear From You!</p>
+        <form className="form mx-auto">
+          <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Full Name"
+          />
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}S
+            type="email"
+            placeholder="Email"
+          />
+          
+          <input
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="A Short Message"
+          />
+          <button type="button" style={{marginLeft: "1350px"}} onClick={handleFormSubmit}>Submit</button>
+        </form>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
