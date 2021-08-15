@@ -39,7 +39,7 @@ const Contact = () => {
 
   return (
     <div>
-      <p style={{"marginLeft":"auto", "marginRight":"auto"}}>Love To Hear From You!</p>
+      <p style={{maxWidth:"680px", margin:"auto", fontFamily: "Lobster, cursive", fontSize:"32px"}}>Love To Hear From You!</p>
       <form className="form mx-auto">
         <input
           value={name}
@@ -63,7 +63,7 @@ const Contact = () => {
           type="number"
           placeholder="Phone Number"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button type="button" style={{marginLeft: "950px"}} onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
