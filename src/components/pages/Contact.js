@@ -68,7 +68,7 @@ const Contact = () => {
             placeholder="A Short Message"
           />
           <div className="btn-group position-absolute top-50 start-50 translate-middle-y">
-            <button type="submit" className="btn btn-secondary " style={{justifyContent:"center"}} onClick={handleFormSubmit}>Submit</button>
+            <button type="submit" className="btn btn-secondary " style={{justifyContent:"center", marginTop:"-41px", marginLeft:"150px"}} onClick={handleFormSubmit}>Submit</button>
           </div>
         </form>
         {errorMessage && (

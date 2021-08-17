@@ -19,12 +19,13 @@ const Projects = () => {
         </header>
         <div className="container">
             <div className="row">
-                <div className="col-xl-3 col-md-6 mb-4">
-                    <div className="card border-0 shadow h-100">
+                <div className="col-xl-3 col-md-6 mb-4 whole-card">
+                    <div className="card border-0 shadow h-100 bg-image hover-zoom">
                         <img src={TailoristImage} className="card-img-top" alt="..." />
                         <div className="card-body text-center">
                             <h5 className="card-title mb-2 caption">The-Tailorist</h5>
                             <a className="social-icon" target="_blank." href="https://github.com/AnneliseRowan/the-tailorist"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" style={{marginLeft:"10px"}} href="https://anneliserowan.github.io/the-tailorist/"><i class="fas fa-rocket"></i></a>
                         </div>
                     </div>
                 </div>
@@ -34,6 +35,7 @@ const Projects = () => {
                         <div className="card-body text-center">
                             <h5 className="card-title mb-2 caption">Follow-The-Reader</h5>
                             <a className="social-icon" target="_blank." href="https://github.com/AnneliseRowan/project-2"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" style={{marginLeft:"10px"}} href="https://follow-the-reader.herokuapp.com/"><i class="fas fa-rocket"></i></a>
                         </div>
                     </div>
                 </div>
@@ -43,6 +45,7 @@ const Projects = () => {
                         <div className="card-body text-center">
                             <h5 className="card-title mb-2 caption">Team-Profile-Generator</h5>
                             <a className="social-icon" target="_blank." href="https://github.com/AnneliseRowan/team-profile-generator"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" style={{marginLeft:"10px"}} href="https://anneliserowan.github.io/weather-dashboard/"><i class="fas fa-rocket"></i></a>
                         </div>
                     </div>
                 </div>
@@ -61,6 +64,7 @@ const Projects = () => {
                         <div className="card-body text-center">
                             <h5 className="card-title mb-2 caption">PWA-Budget-Tracker</h5>
                             <a className="social-icon" target="_blank." href="https://github.com/AnneliseRowan/PWA-Online-Offline-Budget-Tracker"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" style={{marginLeft:"10px"}} href="https://pwa-budgetingtracker.herokuapp.com/"><i class="fas fa-rocket"></i></a>
                         </div>
                     </div>
                 </div>
@@ -70,6 +74,7 @@ const Projects = () => {
                         <div className="card-body text-center">
                             <h5 className="card-title mb-2 caption">Personalized-Workout-Tracker</h5>
                             <a className="social-icon" target="_blank." href="https://github.com/AnneliseRowan/personalized-workout-tracker"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" style={{marginLeft:"10px"}} href="https://personalized-workout-tracker.herokuapp.com/?id=61146e1b41057f00156b1a61"><i class="fas fa-rocket"></i></a>
                         </div>
                     </div>
                 </div>
@@ -88,6 +93,7 @@ const Projects = () => {
                         <div className="card-body text-center">
                             <h5 className="card-title mb-2 caption">Weather-Dashboard</h5>
                             <a className="social-icon" target="_blank." href="https://github.com/AnneliseRowan/weather-dashboard"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" style={{marginLeft:"10px"}} href="https://anneliserowan.github.io/weather-dashboard/"><i class="fas fa-rocket"></i></a>
                         </div>
                     </div>
                 </div>
