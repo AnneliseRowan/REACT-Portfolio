@@ -43,6 +43,7 @@ const Contact = () => {
         <p className="mx-auto" style={{fontFamily: "Lobster, cursive", fontSize:"48px", width:"500px"}}>Love To Hear From You!</p>
         <form className="form mx-auto">
           <input
+            className="form-control"
             value={name}
             name="name"
             onChange={handleInputChange}
@@ -50,6 +51,7 @@ const Contact = () => {
             placeholder="Full Name"
           />
           <input
+            className="form-control"
             value={email}
             name="email"
             onChange={handleInputChange}S
@@ -58,14 +60,15 @@ const Contact = () => {
           />
           
           <input
+            className="form-control"
             value={message}
             name="message"
             onChange={handleInputChange}
             type="text"
             placeholder="A Short Message"
           />
-          <div className="center">
-            <button type="button" className="mx-auto" style={{justifyContent:"center"}} onClick={handleFormSubmit}>Submit</button>
+          <div className="btn-group position-absolute top-50 start-50 translate-middle-y">
+            <button type="submit" className="btn btn-secondary " style={{justifyContent:"center"}} onClick={handleFormSubmit}>Submit</button>
           </div>
         </form>
         {errorMessage && (
