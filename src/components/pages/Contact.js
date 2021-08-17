@@ -101,14 +101,14 @@ class Contact extends React.Component {
   render() {
     return(
       <div>
-        <header className="bg-light text-center py-5 mb-4">
+        <header className="bg- text-center py-5 mb-4">
           <div className="container">
               <h1 className="fw-light text-black" style={{fontFamily: "Lobster, cursive", fontSize: "64px"}} >Let's Chat!</h1>
           </div>
         </header>
         <div className="App container">
           <div className="row justify-content-center">
-            <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+            <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST" data-netlify="true">
               <div className="form-group">
                 <label htmlFor="name" style={{fontFamily: "Lobster, cursive", fontSize:"24px"}}>Name</label>
                 <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
