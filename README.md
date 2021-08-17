@@ -18,5 +18,5 @@ Created a React Portfolio not only to share projects while applying for jobs or 
 
 ## Deployed Site
 
-[Github Pages Deployed Site](https://anneliserowan.github.io/react-portfolio/)
-[Netlify Deployed Site]()
+* [Github Pages Deployed Site](https://anneliserowan.github.io/react-portfolio/)
+* [Netlify Deployed Site]()
