@@ -4,7 +4,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
             <div className="container">
-                <a className="navbar-brand" style={{fontFamily: "Lobster, cursive", fontSize:"24px"}}>AR</a>
+                <a className="navbar-brand" style={{fontFamily: "Lobster, cursive", fontSize:"32px"}}>AR</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
