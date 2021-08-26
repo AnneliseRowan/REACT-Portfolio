@@ -46,7 +46,7 @@ const Projects = () => {
                         <div className="card-body text-center">
                             <h5 className="card-title mb-2 caption">Personalized-Book-Search MERN</h5>
                             <a className="social-icon" target="_blank." href="https://github.com/AnneliseRowan/personalized-book-search"><i class="fab fa-github"></i></a>
-                            <a class="social-icon" style={{marginLeft:"10px"}} href="https://anneliserowan.github.io/weather-dashboard/"><i class="fas fa-rocket"></i></a>
+                            <a class="social-icon" style={{marginLeft:"10px"}} href="https://secure-springs-87221.herokuapp.com/"><i class="fas fa-rocket"></i></a>
                         </div>
                     </div>
                 </div>
