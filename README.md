@@ -10,11 +10,12 @@ Created a React Portfolio not only to share projects while applying for jobs or 
 
 ## Preview
 
-![Home Page](./Assets/Home.png)
-![About Page](./Assets/About.png)
-![Projects Page](./Assets/Projects.png)
-![Contact Page](./Assets/Contact.png)
-![Resume Page](./Assets/Resume.png)
+![Welcome to Annelise Rowan's Portfolio](./Assets/Home.png)
+![Get to Know Me](./Assets/About.png)
+![My Latest and Greatest Projects](./Assets/Projects.png)
+![My Killer Experience](./Assets/Experience.png)
+![The Education Station](./Assets/Education.png)
+![My Changing and Growing Skillset](./Assets/Skills.png)
 
 ## Deployed Site
 
