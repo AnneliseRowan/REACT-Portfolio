@@ -10,17 +10,17 @@ Created a React Portfolio not only to share projects while applying for jobs or 
 
 ## Preview
 
-### Welcome to Annelise Rowan's Portfolio
+### Welcome to Annelise Rowan's Portfolio:
 ![Welcome to Annelise Rowan's Portfolio](./Assets/Home.png)
-### Get to Know Me
+### Get to Know Me:
 ![Get to Know Me](./Assets/About.png)
-### My Latest and Greatest Projects
+### My Latest and Greatest Projects:
 ![My Latest and Greatest Projects](./Assets/Projects.png)
-### My Killer Experience
+### My Killer Experience:
 ![My Killer Experience](./Assets/Experience.png)
-### The Education Station]
+### The Education Station:
 ![The Education Station](./Assets/Education.png)
-### My Changing and Growing Skillset
+### My Changing and Growing Skillset:
 ![My Changing and Growing Skillset](./Assets/Skills.png)
 
 ## Deployed Site
