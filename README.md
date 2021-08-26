@@ -8,6 +8,10 @@ Annelise Rowan
 
 Created a React Portfolio not only to share projects while applying for jobs or working as a freelancer but also to share work with other developers and collaborate on projects. This is a single-page application to view work samples. There is an About section, a Project section, a Contact form, and a link to download a current Resume. 
 
+## Deployed Site
+
+* [Github Pages Deployed Site](https://anneliserowan.github.io/react-portfolio/)
+
 ## Preview
 
 ### Welcome to Annelise Rowan's Portfolio:
@@ -23,6 +27,4 @@ Created a React Portfolio not only to share projects while applying for jobs or 
 ### My Changing and Growing Skillset:
 ![My Changing and Growing Skillset](./Assets/Skills.png)
 
-## Deployed Site
 
-* [Github Pages Deployed Site](https://anneliserowan.github.io/react-portfolio/)
