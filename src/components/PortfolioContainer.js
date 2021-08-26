@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About'; 
 import Projects from './pages/Projects';
-import Contact from './pages/Contact'; 
+import Experience from './pages/Experience'; 
 import Resume from './pages/Resume'; 
 
 
@@ -21,7 +21,7 @@ export default function PortfolioContainer() {
         return <Projects />;
       }
       if (currentPage === 'Contact') {
-        return <Contact />;
+        return <Experience />;
       }
       if (currentPage === 'Resume') {
         return <Resume />;
