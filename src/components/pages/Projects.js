@@ -1,12 +1,13 @@
 import React from 'react';
 import TailoristImage from "../../assets/tailorist.jpg";
 import FollowImage from "../../assets/followthereader.png";
-import TeamImage from "../../assets/teamprofilegenerator.png"; 
+// import TeamImage from "../../assets/teamprofilegenerator.png"; 
 import EmployeeTracker from "../../assets/employeetracker.png"; 
 import BudgetTracker from "../../assets/pwa.png"; 
 import WorkoutTracker from "../../assets/workout.png"; 
 import EcommerceBackEnd from "../../assets/ecommerce.png";
 import WeatherDashboard from "../../assets/weather.png"; 
+import Mern from "../../assets/mern.png"; 
 import "./style.css";
 
 const Projects = () => {
@@ -41,10 +42,10 @@ const Projects = () => {
                 </div>
                 <div className="col-xl-3 col-md-6 mb-4">
                     <div className="card border-0 shadow h-100">
-                        <img src={TeamImage} className="card-img-top" alt="..." />
+                        <img src={Mern} className="card-img-top" alt="..." />
                         <div className="card-body text-center">
-                            <h5 className="card-title mb-2 caption">Team-Profile-Generator</h5>
-                            <a className="social-icon" target="_blank." href="https://github.com/AnneliseRowan/team-profile-generator"><i class="fab fa-github"></i></a>
+                            <h5 className="card-title mb-2 caption">Personalized-Book-Search MERN</h5>
+                            <a className="social-icon" target="_blank." href="https://github.com/AnneliseRowan/personalized-book-search"><i class="fab fa-github"></i></a>
                             <a class="social-icon" style={{marginLeft:"10px"}} href="https://anneliserowan.github.io/weather-dashboard/"><i class="fas fa-rocket"></i></a>
                         </div>
                     </div>
