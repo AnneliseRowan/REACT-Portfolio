@@ -4,7 +4,10 @@ import Home from './pages/Home';
 import About from './pages/About'; 
 import Projects from './pages/Projects';
 import Experience from './pages/Experience'; 
-import Resume from './pages/Resume'; 
+// import Resume from './pages/Resume'; 
+import Education from './pages/Education'; 
+import Skills from './pages/Skills';
+import Footer from './pages/Footer'; 
 
 
 export default function PortfolioContainer() {
@@ -20,11 +23,14 @@ export default function PortfolioContainer() {
       if (currentPage === 'Projects') {
         return <Projects />;
       }
-      if (currentPage === 'Contact') {
+      if (currentPage === 'Experience') {
         return <Experience />;
       }
-      if (currentPage === 'Resume') {
-        return <Resume />;
+      if (currentPage === 'Education') {
+        return <Education />;
+      }
+      if (currentPage === 'Skills') {
+        return <Skills />;
       }
     };
   
@@ -34,6 +40,7 @@ export default function PortfolioContainer() {
       <div>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
+        <Footer/>
       </div>
     );
   }

@@ -35,6 +35,10 @@ body {
   background-color: #bd5d38;
 }
 
+.dev-icons {
+  font-size: 3rem;
+}
+
 .row-padded-bottom {
   margin-bottom: 4em; 
 }
