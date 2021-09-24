@@ -6,7 +6,7 @@ Annelise Rowan
 
 ## About
 
-Created a React Portfolio not only to share projects while applying for jobs or working as a freelancer but also to share work with other developers and collaborate on projects. This is a single-page application to view work samples. There is an About section, a Project section, a Contact form, and a link to download a current Resume. 
+Created a React Portfolio not only to share projects while applying for jobs or working as a freelancer but also to share work with other developers and collaborate on projects. This is a single-page application to view work samples. There is an About section, a Project section, a Contact form, and a link to download a current Resume!
 
 ## Deployed Site
 
@@ -25,6 +25,6 @@ Created a React Portfolio not only to share projects while applying for jobs or 
 ### The Education Station:
 ![The Education Station](./Assets/Education.png)
 ### My Changing and Growing Skillset:
-![My Changing and Growing Skillset](./Assets/Skills.png)
+![My Changing and Growing Skillset](./Assets/Skills.png) 
 
 
