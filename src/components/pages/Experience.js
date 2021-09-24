@@ -21,7 +21,7 @@ const Experience = () => {
               <p style={{fontFamily: "Karla"}}>•	Consuming RESTful APIs from third party sites such as Open Weather API, Rapid API, the-cocktail-database API, Google-Translate API.</p> 
               <p style={{fontFamily: "Karla"}}>•	Collaborating as a team using Git and Github, writing secure and tested full-stack applications and deploying them on Github and Heroku</p>
             </div>
-            <div className="flex-shrink-0" style={{fontFamily: "Karla"}}><span className="text-primary" >2021 - Present</span></div>
+            <div className="flex-shrink-0" style={{fontFamily: "Karla"}}><span className="text-primary" >2021 - 09/2021</span></div>
           </div>
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">

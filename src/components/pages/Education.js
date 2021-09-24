@@ -19,7 +19,7 @@ const Education = () => {
               <div className="subheading mb-2" style={{fontFamily: "Karla", fontSize:"24px"}}>Certificate in Full Stack Javascript Software Engineering</div>
               <p style={{fontFamily: "Karla"}}>•	Computer Science - Web Development Track</p>
             </div>
-            <div className="flex-shrink-0" style={{fontFamily: "Karla"}}><span className="text-primary" >March 2021</span></div>
+            <div className="flex-shrink-0" style={{fontFamily: "Karla"}}><span className="text-primary" >September 2021</span></div>
           </div>
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">

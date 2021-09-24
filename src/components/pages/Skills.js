@@ -29,11 +29,11 @@ const Skills = () => {
             </li>
             <li>
               <span className="fa-li"><i className="fas fa-check" /></span>
-              React.js, Webpack
+              Webpack
             </li>
             <li>
               <span className="fa-li"><i className="fas fa-check" /></span>
-              Uniqe Ability Design Empathetically
+              Uniqe Ability To Design Empathetically
             </li>
             <li>
               <span className="fa-li"><i className="fas fa-check" /></span>
@@ -41,7 +41,7 @@ const Skills = () => {
             </li>
             <li>
               <span className="fa-li"><i className="fas fa-check" /></span>
-              Express, Jest, Jasmine - TDD
+              Express.JS
             </li>
             <li>
               <span className="fa-li"><i className="fas fa-check" /></span>
