@@ -123,3 +123,49 @@ a {
 p, span {
   margin-bottom: 0.5em; 
 }
+
+/* cellphone */
+@media screen and (max-device-width: 500px) {
+  #name {
+    font-size: 10px
+  }
+  #description {
+    font-size: 5px;
+    margin-left: 50px;
+  }
+  #sideways {
+    display: none; 
+  }
+  #image {
+    width: 50%;
+    margin-left: 25%;
+  }
+  #bienvenue {
+    font-size: 50px; 
+  }
+  .info {
+    margin-left: 25%
+  }
+  #navOptions {
+    font-size: 12px
+  }
+}
+/* ipad */
+@media screen and (max-device-width: 768px) and (min-device-width: 500px) {
+  #sideways {
+    display: none; 
+  }
+  #image {
+    width: 100%;
+    margin-top: 30px
+  }
+  #bienvenue {
+    font-size: 50px; 
+  }
+  .info {
+    margin-left: 25%
+  }
+  #navOptions {
+    font-size: 12px
+  }
+} 

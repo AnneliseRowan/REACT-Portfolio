@@ -10,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
-                    <ul className="navbar-nav ms-auto">
+                    <ul id="navOptions" className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} > Home </a>
                         </li>
